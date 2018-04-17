@@ -10,9 +10,6 @@ except ImportError:
 from datetime import datetime
 import time 
 
-#date2 = raw_input("Give the time you're counting in: ")
-#now = datetime.now()
-
 def count_down(seconds):
   for t in range(seconds, -1, -1):
     # format as 2 digit integers, fills with zero to the left
